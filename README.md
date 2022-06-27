@@ -29,7 +29,7 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 - [Collaborative Development Using GitHub and Pantheon | Pantheon Docs][collab]
 - Pantheon still uses `master` as the default branch. This will eventually be
   fixed ([Inclusive Language at Pantheon and in the Pantheon Community |
-  Pantheon Docs][inclusive])
+  Pantheon Docs][inclusive]).
 
 [collab]: https://pantheon.io/docs/guides/collaborative-development
 [inclusive]: https://pantheon.io/docs/inclusive-language
