@@ -1,39 +1,53 @@
-# WordPress
+# open4us
 
-This is a WordPress repository configured to run on the [Pantheon platform](https://pantheon.io).
+Open Professionals Education Network (OPEN)
 
-Pantheon is website platform optimized and configured to run high performance sites with an amazing developer workflow. There is built-in support for features such as Varnish, Redis, Apache Solr, New Relic, Nginx, PHP-FPM, MySQL, PhantomJS and more. 
+https://open4us.org/
 
-## Getting Started
 
-### 1. Spin-up a site
+## Code of Conduct
 
-If you do not yet have a Pantheon account, you can create one for free. Once you've verified your email address, you will be able to add sites from your dashboard. Choose "WordPress" to use this distribution.
+[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md):
+> The Creative Commons team is committed to fostering a welcoming community.
+> This project and all other Creative Commons open source projects are governed
+> by our [Code of Conduct][code_of_conduct]. Please report unacceptable
+> behavior to [conduct@creativecommons.org](mailto:conduct@creativecommons.org)
+> per our [reporting guidelines][reporting_guide].
 
-### 2. Load up the site
+[code_of_conduct]: https://opensource.creativecommons.org/community/code-of-conduct/[reporting_guide]: https://opensource.creativecommons.org/community/code-of-conduct/enforcement/
 
-When the spin-up process is complete, you will be redirected to the site's dashboard. Click on the link under the site's name to access the Dev environment.
 
-![alt](http://i.imgur.com/2wjCj9j.png?1, '')
+## Contributing
 
-### 3. Run the WordPress installer
+See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-How about the WordPress database config screen? No need to worry about database connection information as that is taken care of in the background. The only step that you need to complete is the site information and the installation process will be complete.
 
-We will post more information about how this works but we recommend developers take a look at `wp-config.php` to get an understanding.
+## Hosted on Pantheon
 
-![alt](http://i.imgur.com/4EOcqYN.png, '')
+- This is a WordPress repository configured to run on the [Pantheon
+  platform](https://pantheon.io).
+- [Collaborative Development Using GitHub and Pantheon | Pantheon Docs][collab]
+- Pantheon still uses `master` as the default branch. This will eventually be
+  fixed ([Inclusive Language at Pantheon and in the Pantheon Community |
+  Pantheon Docs][inclusive])
 
-If you would like to keep a separate set of configuration for local development, you can use a file called `wp-config-local.php`, which is already in our .gitignore file.
+[collab]: https://pantheon.io/docs/guides/collaborative-development
+[inclusive]: https://pantheon.io/docs/inclusive-language
 
-### 4. Enjoy!
 
-![alt](http://i.imgur.com/fzIeQBP.png, '')
+## open4us.org WordPress Theme
 
-## Branches
+This repository is currently the primary source of the open4us WordPress theme ([`wp-content/themes/open4us.org`](wp-content/themes/open4us.org)).
 
-The `default` branch of this repository is where PRs are merged, and has [CI](https://github.com/pantheon-systems/WordPress/tree/default/.circleci) that copies `default` to `master` after removing the CI directories. This allows customers to clone from `master` and implement their own CI without needing to worry about potential merge conflicts.
+[`wp-content/themes/open4us.org/license.txt`][theme-license]: The open4us.org
+WordPress theme is free software, and is released under the terms of the GP
+(GNU General Public License) version 2 or (at your option) any later version.
 
-## Custom Upstreams
+[theme-license]: wp-content/themes/open4us.org/license.txt
 
-If you are using this repository as a starting point for a custom upstream, be sure to review the [documentation](https://pantheon.io/docs/create-custom-upstream#pull-in-core-from-pantheons-upstream) and pull the core files from the `master` branch.
+
+## License
+
+[`license.txt`]: WordPress is free software, and is released under the terms of
+the GP (GNU General Public License) version 2 or (at your option) any later
+version.
