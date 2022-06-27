@@ -48,6 +48,6 @@ WordPress theme is free software, and is released under the terms of the GP
 
 ## License
 
-[`license.txt`]: WordPress is free software, and is released under the terms of
-the GP (GNU General Public License) version 2 or (at your option) any later
-version.
+[`license.txt`](license.txt): WordPress is free software, and is released under
+the terms of the GP (GNU General Public License) version 2 or (at your option)
+any later version.
